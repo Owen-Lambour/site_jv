@@ -1,0 +1,554 @@
+CRITICAL - 2023-07-19 08:32:30 --> syntax error, unexpected '}', expecting ';' or '{'
+in APPPATH\Controllers\Administrateur.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrateur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrateur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Administrateur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Administrateur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 08:32:31 --> syntax error, unexpected '}', expecting ';' or '{'
+in APPPATH\Controllers\Administrateur.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Administrateur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Administrateur')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Administrateur')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Administrateur', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 08:34:59 --> Undefined variable: title
+in APPPATH\Views\administrateur\header.php on line 7.
+ 1 APPPATH\Views\administrateur\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('administrateur/header', [], true)
+ 5 APPPATH\Controllers\Administrateur.php(33): view('administrateur/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 08:35:42 --> Undefined variable: title
+in APPPATH\Views\administrateur\header.php on line 7.
+ 1 APPPATH\Views\administrateur\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('administrateur/header', [], true)
+ 5 APPPATH\Controllers\Administrateur.php(33): view('administrateur/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 08:40:17 --> Undefined variable: css
+in APPPATH\Views\administrateur\header.php on line 9.
+ 1 APPPATH\Views\administrateur\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: css', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\administrateur\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('administrateur/header', [], true)
+ 5 APPPATH\Controllers\Administrateur.php(35): view('administrateur/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:09:44 --> Undefined index: confirmpass
+in APPPATH\Controllers\Administrateur.php on line 36.
+ 1 APPPATH\Controllers\Administrateur.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: confirmpass', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php', 36, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:22:48 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Administrateur.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 09:22:58 --> Undefined variable: db
+in APPPATH\Controllers\Administrateur.php on line 45.
+ 1 APPPATH\Controllers\Administrateur.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:23:00 --> Undefined variable: db
+in APPPATH\Controllers\Administrateur.php on line 45.
+ 1 APPPATH\Controllers\Administrateur.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:24:45 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:24:45 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$hjA.gkefcqhXrlPMZR9peumCBSO/cAVm/ZY0PdyneeYb5/0/KpFm2\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$hjA.gkefcqhXrlPMZR9peumCBSO/cAVm/ZY0PdyneeYb5/0/KpFm2\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$hjA.gkefcqhXrlPMZR9peumCBSO/cAVm/ZY0PdyneeYb5/0/KpFm2\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:24:46 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:24:46 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$jA5RTr.YmYbcrATVIqEF8.xguzSySSDBcEr9xr2auOhlhseT6gsPy\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$jA5RTr.YmYbcrATVIqEF8.xguzSySSDBcEr9xr2auOhlhseT6gsPy\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$jA5RTr.YmYbcrATVIqEF8.xguzSySSDBcEr9xr2auOhlhseT6gsPy\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:24:46 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:24:46 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$5fNK26vD1xHUkrmb8jPIPujt3RtQzrucxN6I5OSI/E7oVrEDoZL4S\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$5fNK26vD1xHUkrmb8jPIPujt3RtQzrucxN6I5OSI/E7oVrEDoZL4S\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$5fNK26vD1xHUkrmb8jPIPujt3RtQzrucxN6I5OSI/E7oVrEDoZL4S\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:24:53 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:24:53 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$Bi167X4yyztyfgJ.b9ERse6Yui9o1e4MkDULVv03wd/A/a.TXTzRe\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$Bi167X4yyztyfgJ.b9ERse6Yui9o1e4MkDULVv03wd/A/a.TXTzRe\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$Bi167X4yyztyfgJ.b9ERse6Yui9o1e4MkDULVv03wd/A/a.TXTzRe\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(44): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:24:54 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:24:54 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$3sG6S7KEbv2Y/YMmPN9OaO/q9e46IyYxx2iNZzQO756.EfKQyUVeS\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$3sG6S7KEbv2Y/YMmPN9OaO/q9e46IyYxx2iNZzQO756.EfKQyUVeS\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$3sG6S7KEbv2Y/YMmPN9OaO/q9e46IyYxx2iNZzQO756.EfKQyUVeS\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(44): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:30:32 --> The route for "/connexion-admin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/connexion-admin')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Administrateur.php(44): redirect('/connexion-admin')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:30:54 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:30:54 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$t8QsZCBQsYxkPG9OHxjN4.0FiNr6x8ZeP9tE93QbDZ1hq9UrriRCO\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$t8QsZCBQsYxkPG9OHxjN4.0FiNr6x8ZeP9tE93QbDZ1hq9UrriRCO\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$t8QsZCBQsYxkPG9OHxjN4.0FiNr6x8ZeP9tE93QbDZ1hq9UrriRCO\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:31:30 --> The route for "/connexion-admin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/connexion-admin')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Administrateur.php(44): redirect('/connexion-admin')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:32:59 --> The route for "/connexion-admin" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/connexion-admin')
+ 2 APPPATH\Controllers\Administrateur.php(44): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:33:28 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:33:28 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$J0zUpjtOjCfTpTOgZlZBROaC4hAaH8VgRSxgzE.S0Olm.iwfYsx/y\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$J0zUpjtOjCfTpTOgZlZBROaC4hAaH8VgRSxgzE.S0Olm.iwfYsx/y\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$J0zUpjtOjCfTpTOgZlZBROaC4hAaH8VgRSxgzE.S0Olm.iwfYsx/y\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:33:43 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:33:43 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$CcNvw7e9pVTCj9XVHU8GOu0o9meOf2ORP/z.wH06Th60ZedTaWTtK\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$CcNvw7e9pVTCj9XVHU8GOu0o9meOf2ORP/z.wH06Th60ZedTaWTtK\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$CcNvw7e9pVTCj9XVHU8GOu0o9meOf2ORP/z.wH06Th60ZedTaWTtK\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:33:43 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:33:43 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$2CTDsGqfRGs5AOEjIl7u1OlMEFgGLrmJgCzsoovmpvfht6yNZIZri\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$2CTDsGqfRGs5AOEjIl7u1OlMEFgGLrmJgCzsoovmpvfht6yNZIZri\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$2CTDsGqfRGs5AOEjIl7u1OlMEFgGLrmJgCzsoovmpvfht6yNZIZri\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:34:22 --> mysqli_sql_exception: Duplicata du champ 'qzd@ee' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:34:22 --> Duplicata du champ 'qzd@ee' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'qzd@ee\', \'$2y$10$pY3r3OTsmLl0v5pRwOTHzegYTnuzw7mHCzI0Skmx0mYuZO.4bPRma\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'qzd@ee\', \'$2y$10$pY3r3OTsmLl0v5pRwOTHzegYTnuzw7mHCzI0Skmx0mYuZO.4bPRma\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'qzd@ee\', \'$2y$10$pY3r3OTsmLl0v5pRwOTHzegYTnuzw7mHCzI0Skmx0mYuZO.4bPRma\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(43): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 09:41:53 --> mysqli_sql_exception: Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Administrateur.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 09:41:53 --> Duplicata du champ 'owenlambour@gmail.com' pour la clef 'administrateur.email_administrateur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$6txhXV30JSQUQy61hp6CkeDt3/tb.bnUC6yEpEFGsDnHBlWEoB5JK\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$6txhXV30JSQUQy61hp6CkeDt3/tb.bnUC6yEpEFGsDnHBlWEoB5JK\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (\'owenlambour@gmail.com\', \'$2y$10$6txhXV30JSQUQy61hp6CkeDt3/tb.bnUC6yEpEFGsDnHBlWEoB5JK\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `administrateur` (`email_administrateur`, `pass_administrateur`, `pseudo_administrateur`) VALUES (:email_administrateur:, :pass_administrateur:, :pseudo_administrateur:)', [...], false)
+ 5 APPPATH\Controllers\Administrateur.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 09:57:55 --> Function name must be a string
+in APPPATH\Controllers\Administrateur.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->connexion()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 10:01:55 --> Undefined offset: 0
+in APPPATH\Controllers\Administrateur.php on line 35.
+ 1 APPPATH\Controllers\Administrateur.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Administrateur.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Administrateur->connexion()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 12:02:59 --> Undefined variable: title
+in APPPATH\Views\commun\header.php on line 7.
+ 1 APPPATH\Views\commun\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('commun/header', [], true)
+ 5 APPPATH\Controllers\Jeu.php(13): view('commun/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 12:02:59 --> Undefined variable: title
+in APPPATH\Views\commun\header.php on line 7.
+ 1 APPPATH\Views\commun\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('commun/header', [], true)
+ 5 APPPATH\Controllers\Jeu.php(13): view('commun/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 12:02:59 --> Undefined variable: title
+in APPPATH\Views\commun\header.php on line 7.
+ 1 APPPATH\Views\commun\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php', 7, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\commun\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('commun/header', [], true)
+ 5 APPPATH\Controllers\Jeu.php(13): view('commun/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 13:16:00 --> Undefined variable: listeJeu
+in APPPATH\Views\jeu\listeAdmin.php on line 32.
+ 1 APPPATH\Views\jeu\listeAdmin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: listeJeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\listeAdmin.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\listeAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/listeAdmin', [], true)
+ 5 APPPATH\Controllers\Jeu.php(19): view('jeu/listeAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-19 13:16:07 --> Undefined variable: listeJeu
+in APPPATH\Views\jeu\listeAdmin.php on line 32.
+ 1 APPPATH\Views\jeu\listeAdmin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: listeJeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\listeAdmin.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\listeAdmin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/listeAdmin', [], true)
+ 5 APPPATH\Controllers\Jeu.php(19): view('jeu/listeAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 13:36:34 --> mysqli_sql_exception: FUNCTION site_jv.ARRAY_JOIN does not exist in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jeu`.`n...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jeu`.`n...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jeu`.`n...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jeu`.`n...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Jeu.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 13:36:34 --> FUNCTION site_jv.ARRAY_JOIN does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN(plateforme)
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN(plateforme)
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN(plateforme)
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN(plateforme)
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`', [], false)
+ 5 APPPATH\Controllers\Jeu.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-19 13:36:49 --> mysqli_sql_exception: FUNCTION site_jv.ARRAY_JOIN does not exist in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jeu`.`n...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jeu`.`n...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jeu`.`n...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jeu`.`n...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Jeu.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-19 13:36:49 --> FUNCTION site_jv.ARRAY_JOIN does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN("plateforme")
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN("plateforme")
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN("plateforme")
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `jeu`.`nom_jeu`, `jeu`.`id_jeu`, `jeu`.`date_jeu`, `editeur`.`nom_editeur`, `developpeur`.`nom_developpeur`, ARRAY_JOIN("plateforme")
+FROM `jeu`
+JOIN `editeur` ON `jeu`.`id_editeur`=`editeur`.`id_editeur`
+JOIN `developpeur` ON `jeu`.`id_developpeur`=`developpeur`.`id_developpeur`
+JOIN `support` ON `jeu`.`id_jeu`=`support`.`id_jeu`
+JOIN `plateforme` ON `plateforme`.`id_plateforme`=`support`.`id_plateforme`', [], false)
+ 5 APPPATH\Controllers\Jeu.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')

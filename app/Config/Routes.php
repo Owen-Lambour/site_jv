@@ -2,6 +2,9 @@
 
 namespace Config;
 
+use App\Controllers\Administrateur;
+use App\Controllers\Jeu;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -29,7 +32,15 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', [Administrateur::class, 'index']);
+$routes->get('/connexion-admin', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
+$routes->post('/connexion-admin', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
+$routes->get('/creation-admin', [Administrateur::class, 'creation']);
+$routes->post('/creation-admin', [Administrateur::class, 'creation']);
+$routes->get('/liste-jeu-admin', [Jeu::class, 'listeAdmin']);
+$routes->get('/jeu/editer/(:segment)', [Jeu::class, 'editer']);
+
+
 
 /*
  * --------------------------------------------------------------------
