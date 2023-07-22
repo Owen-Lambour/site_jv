@@ -33,7 +33,7 @@
                     <td><?= $jeu["date_jeu"]  ?></td>
                     <td><?= $jeu["nom_editeur"]  ?></td>
                     <td><?= $jeu["nom_developpeur"] ?></td>
-                    <td> <a href="/jeu/editer/<?= $jeu['id_jeu'] ?>">Editer</a></td>
+                    <td> <a href="<?= str_replace("/index.php", "", url_to("editer_jeu", $jeu['id_jeu'])) ?>">Editer</a></td>
                 </tr>
             <?php
 

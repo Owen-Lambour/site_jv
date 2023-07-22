@@ -22,9 +22,9 @@ class Administrateur extends BaseController
     {
         if (isset($_POST["connecter"])) {
 
-            /*récupérer l'utilisateur en fonction de son email
-            vérifier le mot de passe
-            faire les cookies
+            /*récupérer l'admin en fonction de son email V
+            vérifier le mot de passe V
+            faire les cookies V
             rediriger vers l'accueil*/
 
 
@@ -36,6 +36,7 @@ class Administrateur extends BaseController
             if (isset($administrateurResult[0])) {
                 if (password_verify($_POST["pass"], $administrateurResult[0]["pass_administrateur"])) {
                     setcookie("isConnected", true, time() + 36000);
+                    return redirect()->route("liste_admin");
                 } else {
                     $data['error'] = "Le mot de passe est invalide";
                 }
@@ -45,15 +46,21 @@ class Administrateur extends BaseController
         }
 
 
-        $data['title'] = "Avis jv - Connexion admin";
-        return view('administrateur/connexion', $data);
+        $data['title'] = "Connexion admin";
+        $data['css'] = "administrateur/styleconnexion";
+        return view("commun/header", $data) . view("administrateur/connexion") . view("commun/footer");
     }
 
     public function creation()
     {
         if (isset($_POST['creer'])) {
+            $db = \Config\Database::connect();
+            $administrateurQuery = $db->table('administrateur')->getWhere(["email_administrateur" => $_POST["email"]]);
+            $administrateurResult = $administrateurQuery->getResult("array");
 
-            if ($_POST["pass"] === $_POST["confirmPass"]) {
+            if (isset($administrateurResult[0])) {
+                $data['error'] = "Email déjà existant";
+            } else if ($_POST["pass"] === $_POST["confirmPass"]) {
 
                 $admin = [
                     "email_administrateur" => $_POST["email"],
@@ -68,7 +75,7 @@ class Administrateur extends BaseController
                 $data['error'] = "Les mots de passes ne correspondent pas";
             }
         }
-        $data['title'] = "Avis jv - Création admin";
+        $data['title'] = "Création admin";
         $data['css'] = "administrateur/stylecreation";
         return view("commun/header", $data) . view("administrateur/creation") . view("commun/footer");
     }

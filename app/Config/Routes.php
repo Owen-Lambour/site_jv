@@ -4,6 +4,7 @@ namespace Config;
 
 use App\Controllers\Administrateur;
 use App\Controllers\Jeu;
+use App\Controllers\Joueur;
 
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
@@ -33,12 +34,27 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', [Administrateur::class, 'index']);
-$routes->get('/connexion-admin', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
-$routes->post('/connexion-admin', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
-$routes->get('/creation-admin', [Administrateur::class, 'creation']);
-$routes->post('/creation-admin', [Administrateur::class, 'creation']);
-$routes->get('/liste-jeu-admin', [Jeu::class, 'listeAdmin']);
-$routes->get('/jeu/editer/(:segment)', [Jeu::class, 'editer']);
+
+$routes->get('/admin/connexion', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
+$routes->post('/admin/connexion', [Administrateur::class, 'connexion'], ["as" => "connexion_admin"]);
+
+$routes->get('/admin/creation', [Administrateur::class, 'creation'], ["as" => "creation_admin"]);
+$routes->post('/admin/creation', [Administrateur::class, 'creation'], ["as" => "creation_admin"]);
+
+$routes->get('/jeu/liste-admin', [Jeu::class, 'listeAdmin'], ["as" => "liste_admin"]);
+$routes->get('/jeu/editer/(:segment)', [Jeu::class, 'editer'], ["as" => "editer_jeu"]);
+
+
+$routes->get('/joueur/creation', [Joueur::class, 'creation'], ["as" => "creation_joueur"]);
+$routes->post('/joueur/creation', [Joueur::class, 'creation'], ["as" => "creation_joueur"]);
+
+$routes->get('/joueur/connexion', [Joueur::class, 'connexion'], ["as" => "connexion_joueur"]);
+$routes->post('/joueur/connexion', [Joueur::class, 'connexion'], ["as" => "connexion_joueur"]);
+
+$routes->get('jeu/liste', [Jeu::class, 'listeJoueur'], ["as" => "liste_joueur"]);
+$routes->post('jeu/liste', [Jeu::class, 'listeJoueur'], ["as" => "liste_joueur"]);
+
+$routes->get('/jeu/afficher/(:segment)', [Jeu::class, 'afficher'], ["as" => "afficher_jeu"]);
 
 
 

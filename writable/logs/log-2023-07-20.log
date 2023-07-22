@@ -1,0 +1,91 @@
+ERROR - 2023-07-20 13:32:18 --> mysqli_sql_exception: Duplicata du champ 'orangeade@gmail.com' pour la clef 'joueur.email_joueur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Joueur.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Joueur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Joueur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-20 13:32:18 --> Duplicata du champ 'orangeade@gmail.com' pour la clef 'joueur.email_joueur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$Bi8agCuBkQRMU3Evy8HFWOD3XwBbhlQO6XpCDTMLQy92iIF3dwmK.\', \'Orangito\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$Bi8agCuBkQRMU3Evy8HFWOD3XwBbhlQO6XpCDTMLQy92iIF3dwmK.\', \'Orangito\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$Bi8agCuBkQRMU3Evy8HFWOD3XwBbhlQO6XpCDTMLQy92iIF3dwmK.\', \'Orangito\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (:email_joueur:, :pass_joueur:, :pseudo_joueur:)', [...], false)
+ 5 APPPATH\Controllers\Joueur.php(58): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Joueur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Joueur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-20 13:45:07 --> Undefined index: email
+in APPPATH\Controllers\Jeu.php on line 35.
+ 1 APPPATH\Controllers\Jeu.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->editer('15')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-20 13:49:31 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Controllers\Jeu.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Jeu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Jeu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Jeu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Jeu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-20 13:49:32 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Controllers\Jeu.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Jeu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Jeu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Jeu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Jeu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-20 13:49:32 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Controllers\Jeu.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Jeu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Jeu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Jeu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Jeu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+ERROR - 2023-07-20 14:18:58 --> mysqli_sql_exception: Duplicata du champ 'orangeade@gmail.com' pour la clef 'joueur.email_joueur' in C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\pfa\site_jv\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `jo...', 0)
+#1 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\wamp64\www\pfa\site_jv\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\wamp64\www\pfa\site_jv\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\wamp64\www\pfa\site_jv\app\Controllers\Joueur.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(932): App\Controllers\Joueur->creation()
+#6 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Joueur))
+#7 C:\wamp64\www\pfa\site_jv\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pfa\site_jv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\pfa\site_jv\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2023-07-20 14:18:58 --> Duplicata du champ 'orangeade@gmail.com' pour la clef 'joueur.email_joueur'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$EGZlPR7i1w6qqHxnpYlL/.XkROZ4KQoettTrb2ZNAsTb4mKmEan0q\', \'ROBERT\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$EGZlPR7i1w6qqHxnpYlL/.XkROZ4KQoettTrb2ZNAsTb4mKmEan0q\', \'ROBERT\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (\'orangeade@gmail.com\', \'$2y$10$EGZlPR7i1w6qqHxnpYlL/.XkROZ4KQoettTrb2ZNAsTb4mKmEan0q\', \'ROBERT\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `joueur` (`email_joueur`, `pass_joueur`, `pseudo_joueur`) VALUES (:email_joueur:, :pass_joueur:, :pseudo_joueur:)', [...], false)
+ 5 APPPATH\Controllers\Joueur.php(58): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Joueur->creation()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Joueur))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')

@@ -12,56 +12,59 @@ class Joueur extends BaseController
     }
     public function connexion()
     {
-        // if (isset($_POST["connecter"])) {
+        if (isset($_POST["connecter"])) {
 
-        //         /*récupérer l'utilisateur en fonction de son email
-        //         vérifier le mot de passe
-        //         faire les cookies
-        //         rediriger vers l'accueil*/
+            $db = \Config\Database::connect();
+            $joueurQuery = $db->table('joueur')->getWhere(["email_joueur" => $_POST["email"]]);
+            $joueurResult = $joueurQuery->getResult("array");
 
+            if (isset($joueurResult[0])) {
+                if (password_verify($_POST["pass"], $joueurResult[0]["pass_joueur"])) {
+                    setcookie("CONNEXIONJOUEUR", true, time() + 36000);
+                    setcookie("id_joueur", $joueurResult[0]["id_joueur"], time() + 36000);
 
-
-        //         $db = \Config\Database::connect();
-        //         $administrateurQuery = $db->table('administrateur')->getWhere(["email_administrateur" => $_POST["email"]]);
-        //         $administrateurResult = $administrateurQuery->getResult("array");
-
-        //         if (isset($administrateurResult[0])) {
-        //             if (password_verify($_POST["pass"], $administrateurResult[0]["pass_administrateur"])) {
-        //                 setcookie("isConnected", true, time() + 36000);
-        //             } else {
-        //                 $data['error'] = "Le mot de passe est invalide";
-        //             }
-        //         } else {
-        //             $data['error'] = "Le mail est invalide";
-        //         }
-        //     }
+                    return redirect()->route("liste_joueur");
+                } else {
+                    $data['error'] = "Le mot de passe est invalide";
+                }
+            } else {
+                $data['error'] = "Le mail est invalide";
+            }
+        }
 
 
-        //     $data['title'] = "Avis jv - Connexion admin";
-        //     return view('administrateur/connexion', $data);
+        $data['title'] = "Connexion";
+        $data['css'] = "joueur/stylecreation";
+        return view("commun/header", $data) . view("joueur/connexion") . view("commun/footer");
     }
 
     public function creation()
     {
-        //     if (isset($_POST['creer'])) {
 
-        //         if ($_POST["pass"] === $_POST["confirmPass"]) {
+        if (isset($_POST['creer'])) {
 
-        //             $admin = [
-        //                 "email_administrateur" => $_POST["email"],
-        //                 "pass_administrateur" => password_hash($_POST["pass"], PASSWORD_DEFAULT),
-        //                 "pseudo_administrateur" => $_POST["pseudo"]
-        //             ];
+            $db = \Config\Database::connect();
+            $joueurQuery = $db->table('joueur')->getWhere(["email_joueur" => $_POST["email"]]);
+            $joueurResult = $joueurQuery->getResult("array");
+            if (isset($joueurResult[0])) {
+                $data['error'] = "Email déjà existant";
+            } else if ($_POST["pass"] === $_POST["confirmPass"]) {
 
-        //             $db = \Config\Database::connect();
-        //             $db->table('administrateur')->insert($admin);
-        //             return redirect()->route("connexion_admin");
-        //         } else {
-        //             $data['error'] = "Les mots de passes ne correspondent pas";
-        //         }
-        //     }
-        //     $data['title'] = "Avis jv - Création admin";
-        //     $data['css'] = "administrateur/stylecreation";
-        //     return view("commun/header", $data) . view("administrateur/creation") . view("commun/footer");
+                $joueur = [
+                    "email_joueur" => $_POST["email"],
+                    "pass_joueur" => password_hash($_POST["pass"], PASSWORD_DEFAULT),
+                    "pseudo_joueur" => $_POST["pseudo"]
+                ];
+
+                $db = \Config\Database::connect();
+                $db->table('joueur')->insert($joueur);
+                return redirect()->route("connexion_joueur");
+            } else {
+                $data['error'] = "Les mots de passes ne correspondent pas";
+            }
+        }
+        $data['title'] = "Inscription";
+        $data['css'] = "joueur/stylecreation";
+        return view("commun/header", $data) . view("joueur/creation") . view("commun/footer");
     }
 }
