@@ -15,7 +15,7 @@ if (isset($error)) {
         <h2 class="col-8 mx-auto text-center">Inscrivez-vous</h2>
     </div>
     <hr>
-    <form action="/creation-joueur" method="POST" class="p-3">
+    <form action="/joueur/creation" method="POST" class="p-3">
 
 
         <div class="row">
