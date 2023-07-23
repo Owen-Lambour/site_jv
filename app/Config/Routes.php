@@ -43,7 +43,7 @@ $routes->post('/admin/creation', [Administrateur::class, 'creation'], ["as" => "
 
 $routes->get('/jeu/liste-admin', [Jeu::class, 'listeAdmin'], ["as" => "liste_admin"]);
 $routes->get('/jeu/editer/(:segment)', [Jeu::class, 'editer'], ["as" => "editer_jeu"]);
-
+$routes->post('/jeu/editer/(:segment)', [Jeu::class, 'editer'], ["as" => "editer_jeu"]);
 
 $routes->get('/joueur/creation', [Joueur::class, 'creation'], ["as" => "creation_joueur"]);
 $routes->post('/joueur/creation', [Joueur::class, 'creation'], ["as" => "creation_joueur"]);

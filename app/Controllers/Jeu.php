@@ -79,7 +79,44 @@ class Jeu extends BaseController
 
     public function editer($id)
     {
-        echo $id;
+        $db = \Config\Database::connect();
+
+        $builder = $db->table('jeu')
+            ->join("editeur", 'jeu.id_editeur=editeur.id_editeur')
+            ->join("developpeur", 'jeu.id_developpeur=developpeur.id_developpeur')
+            // ->join("support", 'jeu.id_jeu=support.id_jeu')
+            // ->join("plateforme", 'plateforme.id_plateforme=support.id_plateforme')
+            ->getWhere(["jeu.id_jeu" => $id]);
+
+        $datajeu['jeu'] = $builder->getResult("array");
+        $datajeu['jeu'] = $datajeu['jeu'][0];
+
+        $builder = $db->table('developpeur')
+            ->get();
+
+        $datajeu['listeDeveloppeur'] = $builder->getResult("array");
+
+        $builder = $db->table('editeur')
+            ->get();
+
+        $datajeu['listeEditeur'] = $builder->getResult("array");
+        if (isset($_POST['modifier'])) {
+            $jeu = [
+                "id_jeu" => $id,
+                "nom_jeu" =>  $_POST["titre"],
+                "date_jeu" => $_POST["date_sortie"],
+                "sypnosis_jeu" => $_POST["description"],
+                "id_developpeur" => $_POST["id_developpeur"],
+                "id_editeur" => $_POST["id_editeur"]
+            ];
+
+            $jeuQuery = $db->table('jeu')->replace($jeu);
+        }
+
+        $data['title'] = "gestion jeu";
+        $data['css'] = "jeu/liste";
+
+        return view("commun/header", $data) . view("jeu/editerJeu", $datajeu) . view("commun/footer");
 
         /*
         récupérer un jeu en fonction de son ID (get de la base de donnée) (tout est dans utilisateur connexion, à modifier par ID)
