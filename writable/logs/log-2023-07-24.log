@@ -1,0 +1,451 @@
+CRITICAL - 2023-07-24 12:08:38 --> Undefined variable: builder
+in APPPATH\Controllers\Jeu.php on line 15.
+ 1 APPPATH\Controllers\Jeu.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 15, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 12:09:06 --> Undefined variable: listeDeveloppeur
+in APPPATH\Views\jeu\recherche.php on line 25.
+ 1 APPPATH\Views\jeu\recherche.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: listeDeveloppeur', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\recherche.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\recherche.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/recherche', [], true)
+ 5 APPPATH\Controllers\Jeu.php(17): view('jeu/recherche')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 12:09:06 --> Undefined variable: listeDeveloppeur
+in APPPATH\Views\jeu\recherche.php on line 25.
+ 1 APPPATH\Views\jeu\recherche.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: listeDeveloppeur', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\recherche.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\recherche.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/recherche', [], true)
+ 5 APPPATH\Controllers\Jeu.php(17): view('jeu/recherche')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 12:09:54 --> Undefined variable: db
+in APPPATH\Controllers\Jeu.php on line 15.
+ 1 APPPATH\Controllers\Jeu.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 15, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 12:14:20 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Jeu.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Jeu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Jeu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Jeu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Jeu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 12:25:17 --> syntax error, unexpected end of file
+in APPPATH\Views\jeu\rechercheAdmin.php on line 30.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/rechercheAdmin', [], true)
+ 3 APPPATH\Controllers\Jeu.php(52): view('jeu/rechercheAdmin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->listeAdmin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:42:09 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'C:\\wamp64\\www\\pfa\\site_jv\\system\\Router\\Router.php', 419, [...])
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^jeu/liste/([^/]+:$#u', 'jeu/afficher/38', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('jeu/afficher/38')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('jeu/afficher/38')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:42:36 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'C:\\wamp64\\www\\pfa\\site_jv\\system\\Router\\Router.php', 419, [...])
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^jeu/liste/([^/]+:$#u', 'jeu/afficher/38', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('jeu/afficher/38')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('jeu/afficher/38')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:42:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'C:\\wamp64\\www\\pfa\\site_jv\\system\\Router\\Router.php', 419, [...])
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^jeu/liste/([^/]+:$#u', 'jeu/liste', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('jeu/liste')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('jeu/liste')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:48:17 --> Undefined variable: id
+in APPPATH\Views\jeu\avisjoueur.php on line 2.
+ 1 APPPATH\Views\jeu\avisjoueur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(196): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:50:20 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(196): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:50:21 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(196): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:50:24 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(196): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:51:01 --> syntax error, unexpected '$data' (T_VARIABLE)
+in APPPATH\Controllers\Jeu.php on line 194.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Jeu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Jeu')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Jeu')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Jeu', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:51:13 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(195): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:53:20 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(194): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:55:26 --> Undefined property: App\Controllers\Jeu::$load
+in APPPATH\Controllers\Jeu.php on line 182.
+ 1 APPPATH\Controllers\Jeu.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Jeu::$load', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 182, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:56:25 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 10.
+ 1 APPPATH\Views\jeu\avisjoueur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 10, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(194): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:57:04 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 4.
+ 1 APPPATH\Views\jeu\avisjoueur.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(194): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:57:04 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 4.
+ 1 APPPATH\Views\jeu\avisjoueur.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(194): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 13:59:57 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisjoueur.php on line 4.
+ 1 APPPATH\Views\jeu\avisjoueur.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisjoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(194): view('jeu/avisjoueur')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 14:00:38 --> Undefined property: App\Controllers\Jeu::$session
+in APPPATH\Controllers\Jeu.php on line 208.
+ 1 APPPATH\Controllers\Jeu.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Jeu::$session', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 208, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+CRITICAL - 2023-07-24 14:00:39 --> Undefined property: App\Controllers\Jeu::$session
+in APPPATH\Controllers\Jeu.php on line 208.
+ 1 APPPATH\Controllers\Jeu.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Jeu::$session', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Controllers\\Jeu.php', 208, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 14:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:02:00 --> Invalid file: "avisjoueur.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('avisjoueur.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('avisjoueur', [], true)
+ 3 APPPATH\Controllers\Jeu.php(227): view('avisjoueur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 14:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:02:01 --> Invalid file: "avisjoueur.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('avisjoueur.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('avisjoueur', [], true)
+ 3 APPPATH\Controllers\Jeu.php(227): view('avisjoueur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('38')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 14:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:22:56 --> Undefined variable: jeu
+in APPPATH\Views\jeu\avisJoueur.php on line 15.
+ 1 APPPATH\Views\jeu\avisJoueur.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jeu', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisJoueur.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\jeu\\avisJoueur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/avisjoueur', [], true)
+ 5 APPPATH\Controllers\Jeu.php(227): view('jeu/avisjoueur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('23')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 14:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 14:35:36 --> Invalid file: "jeu/ajouter_commentaire.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jeu/ajouter_commentaire.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jeu/ajouter_commentaire', [], true)
+ 3 APPPATH\Controllers\Jeu.php(307): view('jeu/ajouter_commentaire', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->ajouterCommentaireForm('38')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 14:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 14:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 15:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-24 16:15:54 --> Undefined variable: message
+in APPPATH\Views\errors\html\error_404.php on line 77.
+ 1 APPPATH\Views\errors\html\error_404.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\errors\\html\\error_404.php', 77, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\pfa\\site_jv\\app\\Views\\errors\\html\\error_404.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('errors/html/error_404', [], true)
+ 5 APPPATH\Controllers\Jeu.php(193): view('errors/html/error_404')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jeu->afficher('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jeu))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\pfa\\site_jv\\public\\index.php')
+INFO - 2023-07-24 16:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-24 16:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

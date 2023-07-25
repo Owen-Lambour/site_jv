@@ -30,9 +30,10 @@ class Joueur extends BaseController
             if (isset($joueurResult[0])) {
                 // Vérification du mot de passe
                 if (password_verify($_POST["pass"], $joueurResult[0]["pass_joueur"])) {
-                    // Si le mot de passe est valide, on crée des cookies pour marquer la connexion du joueur
-                    setcookie("CONNEXIONJOUEUR", true, time() + 36000);
-                    setcookie("id_joueur", $joueurResult[0]["id_joueur"], time() + 36000);
+                    // Si le mot de passe est valide, on crée une session pour marquer la connexion du joueur
+                    session_start();
+                    $_SESSION["CONNEXIONJOUEUR"] = true;
+                    $_SESSION["id_joueur"] = $joueurResult[0]["id_joueur"];
 
                     // Redirection vers la liste des joueurs (à adapter selon l'application)
                     return redirect()->route("liste_joueur");
@@ -53,6 +54,7 @@ class Joueur extends BaseController
         // On retourne la vue 'commun/header' suivi de la vue 'joueur/connexion' et 'commun/footer'
         return view("commun/header", $data) . view("joueur/connexion") . view("commun/footer");
     }
+
 
     // Méthode de création de compte pour les joueurs
     public function creation()
@@ -99,5 +101,18 @@ class Joueur extends BaseController
 
         // On retourne la vue 'commun/header' suivi de la vue 'joueur/creation' et 'commun/footer'
         return view("commun/header", $data) . view("joueur/creation") . view("commun/footer");
+    }
+    public function deconnexion()
+    {
+        // Page de déconnexion
+        session_start();
+        // Détruire toutes les variables de session
+        session_unset();
+        // Détruire la session
+        session_destroy();
+
+
+        // Redirection vers la page d'accueil (à adapter selon votre application)
+        return redirect()->route('liste_joueur');
     }
 }

@@ -83,6 +83,20 @@ class Autoload extends AutoloadConfig
 
     /**
      * -------------------------------------------------------------------
+     * Libraries
+     * -------------------------------------------------------------------
+     * List of libraries to load automatically.
+     *
+     * Prototype:
+     *   $libraries = ['session', 'database'];
+     *
+     * @var string[]
+     * @phpstan-var list<string>
+     */
+    public $libraries = ['session'];
+
+    /**
+     * -------------------------------------------------------------------
      * Helpers
      * -------------------------------------------------------------------
      * Prototype:

@@ -42,6 +42,12 @@ $routes->get('/admin/creation', [Administrateur::class, 'creation'], ["as" => "c
 $routes->post('/admin/creation', [Administrateur::class, 'creation'], ["as" => "creation_admin"]);
 
 $routes->get('/jeu/liste-admin', [Jeu::class, 'listeAdmin'], ["as" => "liste_admin"]);
+$routes->post('jeu/liste-admin', [Jeu::class, 'listeAdmin'], ["as" => "liste_admin"]);
+
+
+$routes->get('jeu/commentaire/(:segment)', 'Jeu::ajouterCommentaire/$1', ["as" => "ajouter_commentaire"]);
+$routes->post('jeu/commentaire/(:segment)', 'Jeu::ajouterCommentaire/$1', ["as" => "ajouter_commentaire"]);
+
 $routes->get('/jeu/editer/(:segment)', [Jeu::class, 'editer'], ["as" => "editer_jeu"]);
 $routes->post('/jeu/editer/(:segment)', [Jeu::class, 'editer'], ["as" => "editer_jeu"]);
 
@@ -56,6 +62,8 @@ $routes->post('jeu/liste', [Jeu::class, 'listeJoueur'], ["as" => "liste_joueur"]
 
 $routes->get('/jeu/afficher/(:segment)', [Jeu::class, 'afficher'], ["as" => "afficher_jeu"]);
 
+
+$routes->get('joueur/deconnexion', [Joueur::class, 'deconnexion'], ["as" => "deconnexion_joueur"]);;
 
 
 /*
